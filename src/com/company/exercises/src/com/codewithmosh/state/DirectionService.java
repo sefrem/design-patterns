@@ -1,4 +1,6 @@
-package com.codewithmosh.state;
+package com.company.exercises.src.com.codewithmosh.state;
+
+import com.codewithmosh.state.TravelMode;
 
 public class DirectionService {
     private TravelMode travelMode;
