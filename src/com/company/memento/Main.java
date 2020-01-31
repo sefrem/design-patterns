@@ -1,4 +1,4 @@
-package memento;
+package com.company.memento;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,6 +13,8 @@ public class Main {
 
         editor.setContent("c");
         editor.restore(history.pop());
+
+        System.out.println(editor.getContent());
 
     }
 }

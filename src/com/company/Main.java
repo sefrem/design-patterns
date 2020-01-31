@@ -1,7 +1,7 @@
 package com.company;
 
-import memento.Editor;
-import memento.History;
+import com.company.memento.Editor;
+import com.company.memento.History;
 
 
 public class Main {

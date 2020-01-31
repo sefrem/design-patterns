@@ -1,4 +1,4 @@
-package memento;
+package com.company.memento;
 
 public class EditorState {
     private final String content;
