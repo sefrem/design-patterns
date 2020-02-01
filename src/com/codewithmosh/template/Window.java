@@ -1,7 +1,8 @@
 package com.codewithmosh.template;
 
-public class Window {
-    public void close() {
+public abstract class Window {
+
+    protected void close() {
         //TODO: custom windows may need to execute some code before the window
         // is closed.
 
